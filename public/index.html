@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Speech-to-text using Amazon Transcribe</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="main-container">
+      <h2>Speech-to-text using Amazon Transcribe</h2>
+      <select id="input-language-list">
+        <option value="nan">Select a language</option>
+        <option value="en-US">English (US)</option>
+        <option value="es-US">Spanish (US)</option>
+      </select>
+
+      <div id="record-button-container">
+        <button id="record" class="recordInactive" onclick="onRecordPress()">
+          Start
+        </button>
+      </div>
+
+      <div id="header-text">
+        <h3>Result</h3>
+      </div>
+      <div id="transcribed-text"></div>
+    </div>
+    <script type="text/javascript" src="./index.bundle.js"></script>
+  </body>
+</html>

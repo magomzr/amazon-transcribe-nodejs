@@ -1,0 +1,73 @@
+#main-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#input-language-list {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid darkgray;
+  border-radius: 15px;
+}
+
+#record-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+  width: 100%;
+}
+
+.recordActive {
+  font-size: 12pt;
+  background-color: rgb(110, 14, 14);
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.recordInactive {
+  font-size: 12pt;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.recordInactive:hover {
+  background-color: rgb(192, 192, 192);
+  color: black;
+}
+
+.recordInactive:active {
+  background-color: white;
+  color: black;
+}
+
+#header-text {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#transcribed-text {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  min-height: 50px;
+  padding: 10px;
+}
